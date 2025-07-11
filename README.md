@@ -1,6 +1,6 @@
-# ADT Country Updater
+# Adtribes Product Feed Country Updater
 
-A WordPress plugin to update the `adt_country` meta field for product feeds with WooCommerce country codes.
+A WordPress plugin to update the `adt_country` meta_key value for product feeds with WooCommerce country codes.
 
 ## Description
 
@@ -49,7 +49,7 @@ This plugin provides a simple admin interface to update country information for 
 
 ### What it does
 
-- Updates the `adt_country` meta field on the selected `adt_product_feed` post
+- Updates the `adt_country` meta_key value on the selected `adt_product_feed` post
 - Uses WooCommerce's built-in country codes (e.g., US, CA, GB, AU)
 - Works with all post statuses (publish, draft, private)
 
@@ -76,7 +76,7 @@ adt-country-updater/
 - `__construct()` - Initialize hooks
 - `check_woocommerce()` - Verify WooCommerce is active
 - `add_admin_menu()` - Add admin menu page
-- `admin_page()` - Main admin page handler
+- `pfp_feed_country_updater()` - Main admin page handler
 - `handle_form_submission()` - Process form data
 - `render_admin_page()` - Display admin interface
 - `get_feeds()` - Retrieve product feeds
@@ -153,5 +153,5 @@ The plugin uses standard WordPress hooks:
 ---
 
 **Version**: 1.0.0  
-**Author**: Adtribes  
-**Last Updated**: 2025 
+**Author**: Tanjir Al Mamun  
+**Last Updated**: July 11, 2025 

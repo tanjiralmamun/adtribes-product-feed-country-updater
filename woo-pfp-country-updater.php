@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Adtribes Product Feed Country Updater
+ * Plugin URI: https://www.github.com/tanjiralmamun/adtribes-product-feed-country-updater
  * Description: Update Product Feed Pro/Elite's Feedz Country just by one click
  * Version: 1.0.0
  * Author: Tanjir Al Mamun
